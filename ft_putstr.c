@@ -17,7 +17,10 @@ int	ft_putstr(char *s)
 	size_t	len;
 
 	if (!s)
-		return (0);
+	{
+		write(1, "(null)", 6);
+		return (6);
+	}
 	len = ft_strlen(s);
 	write(1, s, len);
 	return (len);

@@ -50,3 +50,16 @@ int	ft_putptr(unsigned long long ptr)
 	printed_len += ft_write_ptr((unsigned long long)ptr);
 	return (printed_len);
 }
+
+// #include <stdio.h>
+// int main()
+// {
+// 	ft_putptr((unsigned long long)"");
+// 	printf("\n");
+// 	printf("%p",(unsigned long long)"");
+
+// 	printf("\n");
+// 	ft_putptr((unsigned long long)"aa");
+// 	printf("\n");
+// 	printf("%p",(unsigned long long)"aa");
+// }

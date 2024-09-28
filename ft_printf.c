@@ -93,5 +93,5 @@ int	ft_printf(const char *format, ...)
 // 	printf("%d\n",ft_printf("%X\n",-1));
 // 	return 0;
 // }
-// // cc -Wall -Wextra -Werror ft_printf.c ft_putchar.c \
+// // cc -Wall -Wextra -Werror ft_printf.c ft_putchar.c 
 // ft_putstr.c ft_putnbr.c ft_strlen.c && ./a.out

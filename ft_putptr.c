@@ -29,7 +29,7 @@ int	ft_count_pointer(unsigned long long ptr)
 
 int	ft_write_ptr(unsigned long long ptr)
 {
-	if (ptr > 16)
+	if (ptr >= 16)
 	{
 		ft_write_ptr(ptr / 16);
 		ft_putchar("0123456789abcdef"[ptr % 16]);
